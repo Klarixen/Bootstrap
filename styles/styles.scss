@@ -1,13 +1,13 @@
 body {
     background-color: bisque;
 }
-.container {
+.heading {
     background-image: url(../images/springflowers.jpg);
     min-height: 800px;
     width: 100%;
 }
-.navbar navbar-expand-lg bg-body-tertiary {
-    background-color: rgb(215, 174, 124);
+.bg-body-tertiary {
+    background-color: bisque;
 }
 .navbar-brand {
     font-family: 'Dancing Script', cursive;
@@ -20,4 +20,11 @@ body {
 }
 .btn:hover {
     background-color: bisque;
+}
+.breakoff {
+    min-height:200px;
+    background-color: rgb(234, 159, 213);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
